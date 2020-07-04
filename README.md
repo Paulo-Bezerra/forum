@@ -21,7 +21,7 @@ RF - 05 | Relevância | Usuários podem votar para aumentar ou diminuir a relev�
 RF - 06 | Reportar | Usuários podem indicar um comentário/resposta para ser removida devido seu conteúdo.
 
 ## Ambiente de desenvolvimento e ferramentas recomendas
-- Linguagens: [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) / [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) / [PHP](https://www.php.net/manual/pt_BR) / [MySQL](https://dev.mysql.com/doc);
+- Linguagens: [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) / [~~CSS~~](https://developer.mozilla.org/pt-BR/docs/Web/CSS) / [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) / [PHP](https://www.php.net/manual/pt_BR) / [MySQL](https://dev.mysql.com/doc);
 - Editor de código: [Visual Studio Code](https://code.visualstudio.com/Download)
 - Controle de versão: [Github](https://github.com)
 - Servidor/localhost: [XAMPP](https://www.apachefriends.org/download.html)
@@ -36,3 +36,7 @@ RF - 06 | Reportar | Usuários podem indicar um comentário/resposta para ser re
 
 ### Bugs, novos recursos ou dúvidas (desenvolvedores)
 Encontrou algum bug, quer sugerir novos recursos para o projeto ou tem alguma dúvida? Talvez tenha uma [issue](https://github.com/Paulo-Bezerra/forum/issues) com o tema que você queria interagir. Caso não tenha, considere [abrir uma nova issue](https://github.com/Paulo-Bezerra/forum/issues/new).
+
+***
+
+Essas informações podem ser acessadas tanto no README que está disponível na [raiz](https://github.com/Paulo-Bezerra/forum) do repositório, quanto no [site](https://paulo-bezerra.github.io/forum) sobre o projeto.
