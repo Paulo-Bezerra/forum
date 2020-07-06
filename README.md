@@ -22,7 +22,7 @@ RF - 06 | Reportar | Usuários podem indicar um comentário/resposta para ser re
 
 ## Ambiente de desenvolvimento e ferramentas recomendas
 - Linguagens: [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) / [~~CSS~~](https://developer.mozilla.org/pt-BR/docs/Web/CSS) / [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) / [PHP](https://www.php.net/manual/pt_BR) / [MySQL](https://dev.mysql.com/doc);
-- Editor de código: [Visual Studio Code](https://code.visualstudio.com/Download)
+- Editor de código: [Visual Studio Code](https://code.visualstudio.com/Download) / [Sublime Text](https://www.sublimetext.com/3)
 - Controle de versão: [Github](https://github.com)
 - Servidor/localhost: [XAMPP](https://www.apachefriends.org/download.html)
 - Navegador padrão: [Google Chrome](https://www.google.com/intl/pt-BR/chrome)
