@@ -4,25 +4,40 @@ use forum;
 
 create table topico(
 id int primary key auto_increment,
-titulo char(70) not null,
-conteudo longtext not null,
-t_autor char(30)
+title char(70) not null,
+topic_content varchar(500) not null,
+topic_autor char(30),
+creation_time datetime
 );
 
+create table threads(
+id int primary key auto_increment,
+id_topic int,
+foreign key(id_topic) references topico(id),
+threads_content varchar(500) not null,
+threads_creation_time datetime
+);
+
+
 create table comentario(
-id_comen int primary key auto_increment,
-id_topico int,
-foreign key(id_topico) references topico(id),
-conteudo longtext not null,
-c_autor char(30)
+id int primary key auto_increment,
+id_topic int,
+foreign key(id_topic) references topico(id),
+comment_content varchar(700) not null,
+comment_autor char(30),
+comment_time datetime
 );
 
 create table resposta(
-id_respo int primary key auto_increment,
-id_topico int,
-foreign key(id_topico) references topico(id),
-id_comentario int,
-foreign key(id_comentario) references comentario(id_comen),
-conteudo longtext not null,
-r_autor char(30)
+id_answer int primary key auto_increment,
+id_topic int,
+foreign key(id_topic) references topico(id),
+id_comment int,
+foreign key(id_comment) references comentario(id),
+answer_content varchar(700) not null,
+answer_autor char(30),
+answer_time datetime
 );
+
+
+-- drop database forum;
