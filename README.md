@@ -19,6 +19,7 @@ RF - 03 | Responder Tópico| O usuário pode comentar e responder os comentário
 RF - 04 | Menções | Mencionar o autor do tópico ou dos comentários dos tópicos.
 RF - 05 | Relevância | Usuários podem votar para aumentar ou diminuir a relevância de um comentário ou resposta.
 RF - 06 | Reportar | Usuários podem indicar um comentário/resposta para ser removida devido seu conteúdo.
+RF - 07 | Gerenciar tópicos e comentários | O usuário poderá editar e remover um tópico/comentário de sua autoria.
 
 ## Ambiente de desenvolvimento e ferramentas recomendas
 - Linguagens: [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) / [~~CSS~~](https://developer.mozilla.org/pt-BR/docs/Web/CSS) / [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) / [PHP](https://www.php.net/manual/pt_BR) / [MySQL](https://dev.mysql.com/doc);
