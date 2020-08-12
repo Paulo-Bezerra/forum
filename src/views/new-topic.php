@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php # inserção do cabeçalho
-    include_once $_SERVER['DOCUMENT_ROOT']."/forum/pages/components/header.php";
+    include_once $_SERVER['DOCUMENT_ROOT']."/forum/src/views/components/header.php";
 ?>
 
     <div class="new-topic">
@@ -40,7 +40,7 @@
     <br>
 
 <?php # inserção do cabeçalho
-    include_once $_SERVER['DOCUMENT_ROOT']."/forum/pages/components/footer.php";
+    include_once $_SERVER['DOCUMENT_ROOT']."/forum/src/views/components/footer.php";
 ?>
 </body>
 </html>
