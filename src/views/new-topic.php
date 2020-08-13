@@ -10,28 +10,44 @@
     include_once $_SERVER['DOCUMENT_ROOT']."/forum/src/views/components/header.php";
 ?>
 
-    <div class="new-topic">
+    <div ida="title-page">
         <h2>Novo Tópico</h2>
     </div>
 
     <br>
 
-    <div class="main">
+    <main>
         <form action="">
-            <label for="subject">Assunto: </label>
-            <input type="text" name="subject" required>
-            <br><br>
+            <div class="input-block">
+                <label for="author">Autor:</label>
+                <input type="text" name="author" id="author">
+            </div>
 
-            <label for="body">Corpo:</label>
             <br>
-            <textarea name="body" id="" cols="30" rows="10"></textarea>
+
+            <div class="input-block">
+                <label for="subject">Assunto: </label>
+                <input type="text" name="subject" required>
+            </div>
+
             <br>
-            <input type="reset" value="Cancelar">
-            <input type="submit" name="publish" value="Publicar">
+            <br>
+
+            <div class="textarea-block">
+                <label for="body">Corpo:</label>
+                <br>
+                <textarea name="body" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <br>
+
+            <div class="input-block">
+                <input type="reset" value="Cancelar">
+                <input type="submit" name="publish" value="Publicar">
+            </div>
         </form>
-    </div>
-    
-    <!--O codigo ainda será revisado, a parte a seguir é apenas uma "gambiarra" nao ficará presente na fase final-->
+    </main>
+
     <br>
     <br>
     <br>
