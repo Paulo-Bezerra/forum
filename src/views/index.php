@@ -12,6 +12,7 @@
 ?>    
 
     <br>
+    
     <div>
         <div id="search-container">
             <form action="#" id="search-form">
